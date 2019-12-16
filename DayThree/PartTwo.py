@@ -122,6 +122,7 @@ def main():
 
     psetIntersect = pset1 & pset2
 
+    # Here is where I realized I should have just jused a dictionary in the first place
     pDict1 = {}
     for item in pset1:
         #print(item)
@@ -139,15 +140,6 @@ def main():
         minLength = l1+l2 if l1+l2 < minLength else minLength
 
     print(minLength)
-
-
-
-# At end of instructions, should have a set full of the first locations of each step
-
-# Do the same for the other one.
-
-#Take the intersection
-
 
 
 main()
